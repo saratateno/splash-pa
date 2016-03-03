@@ -1,3 +1,20 @@
-header .intro-text .name, .lowercase {
+.lowercase {
 	text-transform: lowercase;
+}
+
+.navbar .navbar-header a:hover, .navbar-default .navbar-nav>li>a:hover{
+	color: #ED217C
+}
+
+
+.btn-success, .btn-success:active {
+	background-color: #ED217C;
+	border-color: #ED217C
+
+}
+
+.btn-success:hover {
+	background-color: #DE1584;
+	border-color: #ED217C
+
 }
