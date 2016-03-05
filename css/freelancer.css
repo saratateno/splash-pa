@@ -171,12 +171,12 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
 section h2 {
     margin: 0;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 section.coloured {
@@ -195,7 +195,7 @@ section.coloured a.active {
 
 @media(max-width:767px) {
     section {
-        padding: 75px 0;
+        padding: 50px 0;
     }
 
     section.first {
@@ -276,6 +276,15 @@ section.coloured a.active {
     border: solid 2px #fff;
     color: #63CCCA;
     background: #fff;
+}
+
+.checkbox li, .checkbox input[type="checkbox"] {
+  margin-top: 10px;
+  font-size: 1.5em
+}
+
+.checkbox ul {
+  list-style-type: none
 }
 
 .floating-label-form-group {
