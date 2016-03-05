@@ -179,16 +179,16 @@ section h2 {
     font-size: 3em;
 }
 
-section.success {
+section.coloured {
     color: #fff;
-    background: #63CCCA;
+    background: #0F7173;
 }
 
-section.success a,
-section.success a:hover,
-section.success a:focus,
-section.success a:active,
-section.success a.active {
+section.coloured a,
+section.coloured a:hover,
+section.coloured a:focus,
+section.coloured a:active,
+section.coloured a.active {
     outline: 0;
     color: #2c3e50;
 }
