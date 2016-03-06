@@ -171,7 +171,7 @@ header .intro-text .tagline {
 }
 
 section {
-    padding: 80px 0;
+    padding-top: 80px;
 }
 
 section h2 {
@@ -195,7 +195,7 @@ section.coloured a.active {
 
 @media(max-width:767px) {
     section {
-        padding: 50px 0;
+        padding-top: 50px 0;
     }
 
     section.first {

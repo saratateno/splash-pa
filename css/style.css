@@ -12,10 +12,6 @@ nav a:focus {
 	color: #ED217C !important;
 }
 
-nav .active > a {
-	background-color: inherit !important;
-}
-
 .btn-success,
 .btn-success:active,
 .btn-success:visited {
@@ -29,4 +25,8 @@ nav .active > a {
 
 .floating-label-form-group-with-focus > label {
 	color: #ED217C !important;
+}
+
+.spacer {
+	padding: 40px;
 }
