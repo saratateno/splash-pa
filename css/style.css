@@ -2,7 +2,7 @@
 	text-transform: lowercase;
 }
 
-nav a{
+nav a {
 	transition: all .3s !important;
 }
 
@@ -16,16 +16,17 @@ nav .active > a {
 	background-color: inherit !important;
 }
 
-.btn-success, .btn-success:active, .btn-success:visited{
-	background-color: #ED217C;
-	border-color: #ED217C
+.btn-success,
+.btn-success:active,
+.btn-success:visited {
+	background-color: #ED217C !important;
+	border-color: #ED217C !important;
 }
 
 .btn-success:hover {
-	background-color: #DE1584;
-	border-color: #ED217C
+	background-color: #DE1584 !important;
 }
 
-.floating-label-form-group-with-focus > label{
+.floating-label-form-group-with-focus > label {
 	color: #ED217C !important;
 }
