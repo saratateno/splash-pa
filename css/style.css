@@ -16,7 +16,7 @@ nav .active > a {
 	background-color: inherit !important;
 }
 
-.btn-success, .btn-success:active {
+.btn-success, .btn-success:active, .btn-success:visited{
 	background-color: #ED217C;
 	border-color: #ED217C
 }
@@ -24,4 +24,8 @@ nav .active > a {
 .btn-success:hover {
 	background-color: #DE1584;
 	border-color: #ED217C
+}
+
+.floating-label-form-group-with-focus > label{
+	color: #ED217C !important;
 }
