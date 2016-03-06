@@ -324,6 +324,7 @@ footer .footer-below {
 .btn:active,
 .btn.active {
     outline: 0;
+    background-color: #ED217C
 }
 
 .signup {
