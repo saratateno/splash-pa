@@ -2,19 +2,26 @@
 	text-transform: lowercase;
 }
 
-.navbar .navbar-header a:hover, .navbar-default .navbar-nav>li>a:hover{
-	color: #ED217C
+nav a{
+	transition: all .3s !important;
 }
 
+nav a:hover,
+nav a:active,
+nav a:focus {
+	color: #ED217C !important;
+}
+
+nav .active > a {
+	background-color: inherit !important;
+}
 
 .btn-success, .btn-success:active {
 	background-color: #ED217C;
 	border-color: #ED217C
-
 }
 
 .btn-success:hover {
 	background-color: #DE1584;
 	border-color: #ED217C
-
 }
